@@ -17,7 +17,7 @@ Gate-level quantum circuits and Clifford+T resource estimates for **QARMA-64**, 
 | --------------------------- | -------------------------------- | ---------------------------------------- |
 | One S-box (σ1)              | 35 T, T-depth 20                 | **20 T**, T-depth 10                     |
 | One S-box (σ0/σ2)           | 49 T                             | **24 T**                                 |
-| Full encryption (σ1, r=7)   | 192 qubits, 8,960 T, T-depth 320 | 208 qubits, **5,120 T**, T-depth **160** |
+| Full encryption (σ1, r=7)   | 265 qubits, 8,960 T, T-depth 320 | 272 qubits, **5,120 T**, T-depth **160** |
 | vs. RevKit baseline         | —                                | **8.8× fewer T gates**                   |
 | Grover, one iteration (s=3) | 512 qubits, 58,198 T             | 560 qubits, **31,988 T**                 |
 | Full attack                 | 2^81.11 gates, 2^79.48 T         | 2^81.19 gates, **2^78.62 T**             |
